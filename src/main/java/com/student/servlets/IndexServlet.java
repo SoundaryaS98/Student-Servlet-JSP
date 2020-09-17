@@ -13,7 +13,7 @@ import java.io.IOException;
  * @version 1.1
  * @since 16/09/20 12:20 PM
  */
-@WebServlet("/test")
+@WebServlet("/main")
 public class IndexServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
